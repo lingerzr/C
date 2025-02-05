@@ -1,8 +1,13 @@
 #include <stdio.h>  //standard-input-output函数
 
+int num2 = 20;  //全局变量-定义在代码块{}之外
+
 //main前面的int表示main函数调用返回一个整型值
 int main()  //主函数-程序的入口-main函数有且仅有一个
 {
+    int num1 = 10;  //局部变量-定义在代码块{}之内
+    //全局变量和局部变量可以同时存在-建议不要同时存在
+    //当全局变量和局部变量同时存在时局部变量优先
     double f = 5.0;
     printf("hello b1t\n");  //打印函数-库函数用#include<stdio.h>的文件
     printf("%lf\n", f);
