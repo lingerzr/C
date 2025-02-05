@@ -6,13 +6,13 @@ int main()  //主函数-程序的入口-main函数有且仅有一个
     double f = 5.0;
     printf("hello b1t\n");  //打印函数-库函数用#include<stdio.h>的文件
     printf("%lf\n", f);
-    printf("%d\n", sizeof(char));
-    printf("%d\n", sizeof(short));
-    printf("%d\n", sizeof(int));
-    printf("%d\n", sizeof(long));
-    printf("%d\n", sizeof(long long));
-    printf("%d\n", sizeof(float));
-    printf("%d\n", sizeof(double));
+    printf("%d\n", sizeof(char));  //1字节
+    printf("%d\n", sizeof(short));  //2字节
+    printf("%d\n", sizeof(int));  //4字节
+    printf("%d\n", sizeof(long));  //4/8字节
+    printf("%d\n", sizeof(long long));  //8字节
+    printf("%d\n", sizeof(float));  //4字节
+    printf("%d\n", sizeof(double));  //8字节
     return 0;  //返回 0
 }
 
