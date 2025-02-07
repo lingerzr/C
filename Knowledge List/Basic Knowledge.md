@@ -28,6 +28,7 @@ $$
 ## 全局变量与局部变量
 1. 局部变量的作用域时变量所在的局部范围
 2. 全局变量的作用域时整个工程
+3. 局部变量与全局变量冲突时，以局部变量为优先
 
 ## 常量
 - 字面常量
@@ -110,4 +111,39 @@ sizeof  操作数的类型长度(以字节为单位)
 --  前置、后置--
 ++  前置、后置++
 *  间接访问操作符(解引用操作符)
+(类型)  强制类型转换
+```
+
+### 关系操作符
+```
+>
+>=
+<
+<=
+!=  不相等
+==  相等
+```
+
+### 逻辑操作符
+```
+&&  逻辑与  //和位操作符不同
+||  逻辑或
+```
+
+### 条件操作符
+```
+exp1 ? exp2 : exp3
+//表达式1为真则exp2的值即为整个表达式的值，否则则为exp3
+```
+
+### 逗号表达式
+```
+exp1, exp2, exp3, ...expN
+```
+
+## 常用关键字
+```
+auto break case char const continue default do double else enum 
+extern float goto if int long register return short signed
+sizeof static struct switch typedef union unsigned void volatile while
 ```
