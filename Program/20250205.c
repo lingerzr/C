@@ -9,6 +9,9 @@ int main()
     //或{'a', 'b', 'c', 0}
     char arr3[] = {'a', 'b', 'c'};  //mistake
 
+    int arr[10];  //定义一个存放10个整数数字的数组
+    char arr[20];  //定义一个存放20个char型元素的数组
+
     printf("%s\n", arr1);
     printf("%s\n", arr2);
     printf("%s\n", arr3);
