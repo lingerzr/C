@@ -147,3 +147,35 @@ auto break case char const continue default do double else enum
 extern float goto if int long register return short signed
 sizeof static struct switch typedef union unsigned void volatile while
 ```
+
+## if语句
+```
+if(表达式)
+    语句;
+
+if(表达式)
+    语句1;
+else
+    语句2;
+
+if(表达式)
+    语句1;
+else if(表达式2)
+    语句2;
+else 
+    语句3;
+
+#include <stdio.h>
+int main()
+{
+    if(表达式)
+    {
+        语句列表1;
+    }
+    else
+    {
+        语句列表;
+    }
+    return 0;
+}
+```
