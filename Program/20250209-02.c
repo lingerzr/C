@@ -2,8 +2,8 @@
 
 int main()
 {
-    int ch = 0;
-    while((ch = getchar()) != EOF)
+    int ch = 0;  //不需要初始赋值
+    while((ch = getchar()) != EOF)  //end of file
     {
         putchar(ch);
     }
